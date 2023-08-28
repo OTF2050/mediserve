@@ -1,0 +1,743 @@
+@font-face {
+    font-family: "CAN";
+    src: url(../FONTS/FontsFree-Net-sdgg.ttf);
+}
+
+.navbar{
+    border-bottom: 4px #0071BC solid;
+}
+.nav-link{
+    margin-left: 6px;
+    
+}
+.nav-link:hover{
+    border-bottom: 2px #0c8ade solid;
+     color:#0c8ade ; 
+     font-size: 23px;
+}
+
+.home-carsoul{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.carsoul-text{
+    position: relative;
+    top: -301px;
+    right: -261px;
+    color: aliceblue;
+    font-family: "CAN";
+}
+.carsoul-text-2{
+    position: relative;
+    top: -615px;
+    right: -50px;
+    color: aliceblue;
+    font-family: "CAN";
+}
+.carousel-caption{
+    margin-bottom: 61px;
+}
+.carousel-caption-2{
+    margin-bottom: 61px;
+}
+.icon:hover{
+    color: #0071BC;
+}
+.navbar-nav .mega-menu {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .navbar-nav .mega-menu .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .navbar-nav .mega-menu h5 {
+    margin-bottom: 10px;
+    color: #0071BC;
+    font-family: "CAN";
+  }
+  
+  .navbar-nav .mega-menu ul {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-nav .mega-menu .dropdown-item {
+    color: #333;
+  }
+  
+  .navbar-nav .mega-menu .dropdown-item:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  .dropdown-menu#global{
+    position: absolute;
+    left: 1380px;
+    color: #fff;
+    background-color: #0071BC;
+  }
+  
+  .social-image{
+    margin-left: 263px
+  }
+  .social-image-2{
+    margin-left: 475px;
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #112f63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ffffff;
+  }
+
+
+
+
+  
+  .about-section {
+    margin-bottom: 40px;
+  }
+  
+  .about-section h1, h2 {
+    color: #333;
+  }
+  
+  .about-section p {
+    color: #666;
+  }
+  
+  .about-section  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .contact-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+
+  .our-services{
+    background-image: url(../image/istockphoto-511061090-612x612.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    font-family: "CAN";
+  }
+  .overlay{
+    background-color: rgba(9, 93, 210, 0.466);
+    padding: 100px 0 30px;
+}
+
+
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"], textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+.request-service{
+  background-color: #6666661d;
+}
+.Services-img{
+  position: relative;
+  left: 124px;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.gallery-item img {
+  margin-top: 25px;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin-top: 79px;
+  margin-left: 76px;
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: 96px;
+  right: 128px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+  /*************************************************
+  ******************about-us********************
+  **********/
+  .jumbotron{
+    background-image: url(../image/7.jpg);
+  
+  }
+  /* Custom CSS for the Managers section */
+#managers h2 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+}
+.our-workes{
+  background-color: rgb(63, 63, 63);
+  padding: 20px;
+}
+
+
+/* styles.css */
+
+/* Style the footer section */
+footer {
+  padding-top: 20px;
+}
+
+/* Change link color to white in the footer */
+footer a {
+  color: #fff;
+}
+
+/* Style the "Back to Top" button */
+.backToTopBtn  {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#backToTopBtn:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+
+.navbar-2{
+  position: relative;
+  bottom: -68px;
+  left: 290px;
+  margin-left: -298px;
+  border-bottom: none;
+}
+
+.cleaning-services {
+    bottom: -79px;
+    position: relative;
+}
+
+
+
+
+
+.hero-section {
+  background-color: #373b3e;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+section.tour-gallery  .gallery-link img {
+  width: 100%;
+}
+
+section.tour-gallery  .gallery-link .gallery-hover {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  color: #fff;
+  background-color: rgba(22, 174, 202, 0.9);
+  z-index: 5;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.carsoul-text{
+top: 256px;
+left: 15px;
+position: absolute;
+}
+.carousel-item h1.EGYPT{
+background-color: #ffffff;
+padding: 21px;
+color: #004AAD;
+}
+.carousel-item h1.paris{
+background-color: white;
+padding: 21px;
+position: relative;
+color: #004AAD;
+
+left: 2px;
+}
+
+/* styles.css */
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.video video {
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-video {
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+header {
+  text-align: center;
+  padding: 27px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-link img {
+  width: 40px;
+  height: 40px;
+}
+
+
+section.services {
+  padding: 80px 0;
+  min-height: 700px;
+}
+
+section.services .services-title h3 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #0b070c;
+}
+
+section.services .card {
+  height: 330px;
+  padding: 50px;
+  margin-bottom: 20px;
+  transition: all 1s ease-in-out;
+}
+
+section.services .card:hover {
+  height: 400px;
+}
+
+section.services .card .card-img {
+  margin-bottom: 45px;
+}
+
+section.services .card .card-block h4 {
+  font-size: 24px;
+  color: #070c0c;
+  margin-bottom: 25px;
+}
+
+section.services .card .card-block p {
+  font-size: 15px;
+  line-height: 21px;
+  color: #919191;
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+section.services .card:hover .card-block p {
+  opacity: 1;
+}
+#map iframe{
+  padding: 0;
+  width:100% !important;
+}
+.landscaping-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+.landscaping-icon {
+  font-size: 40px;
+  color: #007bff;
+}
+.landscaping-item {
+  margin-bottom: 30px;
+}
+.support-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+.support-item {
+  margin-bottom: 30px;
+}
+.services-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+.services-item {
+  margin-bottom: 30px;
+}
+/* Custom CSS for the slider */
+.Slider{
+  margin-right: 1px;
+}
+.carousel-inner-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.comment {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 14px;
+  color: #999;
+}
+
+.hero {
+  background-image: url('../image/world\ art\ day\ \(Facebook\ Cover\)\ \(2\).png')  ;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  
+}
+.feature {
+  text-align: center;
+  padding: 80px 0;
+}
+.feature img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+.feature h3 {
+  margin-top: 20px;
+}
+
+
+.about-us-header header {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.about-us-header h1, h2 {
+  margin-bottom: 10px;
+}
+.about-us-header section {
+  padding: 30px;
+}
+.about-us-header h2 {
+  color: #343a40;
+}
+.about-us-header p {
+  line-height: 1.6;
+}
+
+#contact-option h4{
+  font-size: 18px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+#contact-option{
+  background-color: #000000;
+}
+#contact-info{
+  margin-bottom: 25px;
+}
+#contact-info .fa-lg{
+  color:#0a29c3;
+  font-size: 18px;
+  width: 25px;
+  text-align: center;
+  margin: 10px 10px 7px 10px;
+}
+
+.report-button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.report-button:hover {
+  background-color: #d32f2f;
+}
+
+
+.fast-request-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: #000 0.3s ease;
+}
+
+.fast-request-button:hover {
+  background-color: #2980b9;
+}
+
+
+@media (max-width: 992px) {
+  section.services .card {
+      padding: 20px;
+      height: 400px;
+  }
+
+  section.services .card .card-img {
+      margin-bottom: 35px;
+  }
+
+  section.services .card .card-block h4 {
+      font-size: 20px;
+      margin-bottom: 15px;
+  }
+
+  section.services .card .card-block p {
+      opacity: 1;
+  }
+
+  section.contacts .map iframe {
+      width: 100%;
+  }
+
+  section.contacts .contact-form {
+      width: 80%;
+  }
+}
+#contact-option h4{
+  font-size: 18px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+#contact-info{
+  margin-bottom: 25px;
+}
+#contact-info .fa-lg{
+  color:#141414;
+  font-size: 18px;
+  width: 25px;
+  text-align: center;
+  margin: 10px 10px 7px 10px;
+}
+
+.social-header{
+  margin-top: 135px;
+}
+.choose-us-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+.choose-us-icon {
+  font-size: 40px;
+  color: #007bff;
+}
+.maintenance-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+.maintenance-icon {
+  font-size: 40px;
+  color: #007bff;
+}
+.maintenance-item {
+  margin-bottom: 30px;
+}
