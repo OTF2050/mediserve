@@ -8,41 +8,41 @@
 <body>
   <header>
           
-          <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">تسجيل دخول مستخدم</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="serviceRequestForm">
-          <form class="fast-request-form">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">fast-request</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid mt-5">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                      <label for="request">Request</label>
+                      <textarea class="form-control" id="request" rows="3" placeholder="Enter your request"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email">
-            </div>
-            <div class="form-group">
-              <label for="request">Request</label>
-              <textarea class="form-control" id="request" rows="3" placeholder="Enter your request"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        <div class="modal-footer justify-content-center">
-            <button type="button" class="btn text-dark sign-in-text" data-toggle="modal" data-target="#exampleModal-2">انشاء حساب</button>
-          <button type="button" class="btn btn-secondary btn-custom-2" data-dismiss="modal">اغلاق</button>
-          <button type="button" class="btn  btn-custom"> ارسال الرساله</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
     <div>
       <div id="navbar-section">
@@ -201,11 +201,11 @@
             <!-- Manager 2 -->
             <div class="col-md-4 mb-4">
               <div class="card">
-                <img src="../image/image-removebg-preview.png" class="card-img-top" alt="Manager 2">
+                <img src="../image/image-removebg-preview.png" class="card-img-top" alt="Manager 2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="card-body text-center">
                   <h5 class="card-title">Mohamed Elkady</h5>
                   <p class="card-text">Operations Manager</p>
-                  <button class="fast-request-button">Fast Request</button>
+                  <button class="fast-request-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Fast Request</button>
 
                 </div>
               </div>
@@ -218,7 +218,7 @@
                 <div class="card-body text-center">
                   <h5 class="card-title">Michael Johnson</h5>
                   <p class="card-text">Maintenance Manager</p>
-                  <button class="fast-request-button">Fast Request</button>
+                  <button class="fast-request-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Fast Request</button>
 
                 </div>
               </div>
